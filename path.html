@@ -6,33 +6,27 @@ $.get('path.svg', function(data) {
   $(document.body).append(data.documentElement);
 
   // clicking row 1 will show the dialog
-  $('#stage1').click(function() {
+  $('#clickHere').click(function() {
     $('#tip1').hide();
+    $('#click1').hide();
     // adding 'fast' as a parameter will make it fade
-    $('#dialog1').fadeIn();
+    $('#response1').fadeIn();
+    $('#reset').show();
   });
-
-  // clicking row 1 will show the dialog
-  $('#stage2').click(function() {
-    $('#tip2').hide();
-    // adding 'fast' as a parameter will make it fade
-    $('#dialog2').fadeIn();
-
-  });
-
-  // dialog close button
-  $('#closebutton').click(function() {
-    $('#dialog').hide();
+  
+  $('#reset').click(function() {
+    $('#response1').hide();
+    $('#reset').hide();
   });
 
   // tooltip logic
-  $('#stage1').hover(
+  $('#clickHere').hover(
     function mouseover() {
-      $('#tip1').show();
+      $('#click1').show();
     }, 
     function mouseleave() {
-      $('#tip1').hide();
-      $('#dialog1').hide();
+      //$('#tip1').hide();
+      $('#click1').hide();
     }
   );
 
