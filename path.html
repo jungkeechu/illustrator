@@ -1,0 +1,62 @@
+<!doctype html>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<script>
+$.get('path.svg', function(data) {
+// $.get('fruit_font.svg', function(data) {
+  $(document.body).append(data.documentElement);
+
+  // clicking row 1 will show the dialog
+  $('#stage1').click(function() {
+    $('#tip1').hide();
+    // adding 'fast' as a parameter will make it fade
+    $('#dialog1').fadeIn();
+  });
+
+  // clicking row 1 will show the dialog
+  $('#stage2').click(function() {
+    $('#tip2').hide();
+    // adding 'fast' as a parameter will make it fade
+    $('#dialog2').fadeIn();
+
+  });
+
+  // dialog close button
+  $('#closebutton').click(function() {
+    $('#dialog').hide();
+  });
+
+  // tooltip logic
+  $('#stage1').hover(
+    function mouseover() {
+      $('#tip1').show();
+    }, 
+    function mouseleave() {
+      $('#tip1').hide();
+      $('#dialog1').hide();
+    }
+  );
+
+  $('#stage2').hover(
+    function mouseover() {
+      $('#tip2').show();
+    }, 
+    function mouseleave() {
+      $('#tip2').hide();
+      $('#dialog2').hide();
+    }
+  );  
+
+});
+
+</script>
+<style>
+#row1, #closebutton {
+  cursor: pointer;
+}
+#closebutton {
+  opacity: .7;  
+}
+#closebutton:hover {
+  opacity: 1;  
+}
+</style>

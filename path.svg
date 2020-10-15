@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="CareerPlan" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#EEF40B;stroke:#000000;stroke-miterlimit:10;}
+	.st2{font-family:'MyriadPro-Regular';}
+	.st3{font-size:14px;}
+	.st4{fill:none;}
+	.st5{fill:#FF73E9;}
+	.st6{fill:#FF45B8;}
+	.st7{font-size:20px;}
+	.st8{display:none;}
+	.st9{display:inline;fill:#88FF00;}
+	.st10{display:inline;}
+	.st11{font-size:24px;}
+	.st12{display:inline;fill:#FF17FB;}
+</style>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="285.5" y1="240.1563" x2="979.4085" y2="240.1563">
+	<stop  offset="0.0571" style="stop-color:#FFFFFF"/>
+	<stop  offset="0.2219" style="stop-color:#FCFCFC"/>
+	<stop  offset="0.3442" style="stop-color:#F3F3F3"/>
+	<stop  offset="0.4527" style="stop-color:#E2E2E2"/>
+	<stop  offset="0.5534" style="stop-color:#CCCCCC"/>
+	<stop  offset="0.6486" style="stop-color:#AEAEAE"/>
+	<stop  offset="0.7397" style="stop-color:#8A8A8A"/>
+	<stop  offset="0.8276" style="stop-color:#606060"/>
+	<stop  offset="0.9106" style="stop-color:#2F2F2F"/>
+	<stop  offset="0.9814" style="stop-color:#000000"/>
+</linearGradient>
+<path class="st0" d="M885.1,302.24H285.79v94.88H885.1c101.6-0.38,94.19-94.88,94.19-94.88l-0.81-124.06
+	c10.98-113.33-93.67-93.67-93.67-93.67H285.5v94.88h599.31c0,0,19.12,7.69,19.41,19.41c0.28,11.72,0.28,11.72,0.28,11.72l2,73
+	C906.5,283.5,907.69,301.98,885.1,302.24z"/>
+<g id="stage1">
+	<circle class="st1" cx="333" cy="134" r="33.5"/>
+	<text transform="matrix(1 0 0 1 305 133)"><tspan x="0" y="0" class="st2 st3">Start Here:</tspan><tspan x="0" y="16.8" class="st2 st3">Stage1</tspan></text>
+	<rect x="313.03" y="139.93" class="st4" width="30.92" height="3.96"/>
+</g>
+<g id="stage2">
+	<g>
+		<path class="st5" d="M563,166.5c-6.34,0-11.5-5.16-11.5-11.5v-38c0-6.34,5.16-11.5,11.5-11.5h75c6.34,0,11.5,5.16,11.5,11.5v38
+			c0,6.34-5.16,11.5-11.5,11.5H563z"/>
+		<path class="st6" d="M638,106c6.07,0,11,4.93,11,11v38c0,6.07-4.93,11-11,11h-75c-6.07,0-11-4.93-11-11v-38c0-6.07,4.93-11,11-11
+			H638 M638,105h-75c-6.6,0-12,5.4-12,12v38c0,6.6,5.4,12,12,12h75c6.6,0,12-5.4,12-12v-38C650,110.4,644.6,105,638,105L638,105z"/>
+	</g>
+	<text transform="matrix(1 0 0 1 575.7529 143.1396)" class="st2 st7">Stage2</text>
+</g>
+<g id="tip1" class="st8">
+	<rect x="313" y="32" class="st9" width="185" height="61"/>
+	<text transform="matrix(1 0 0 1 337.3979 64.3872)" class="st10 st2 st11">You Start Here~</text>
+</g>
+<g id="tip2" class="st8">
+	<rect x="644" y="18" class="st12" width="172" height="87"/>
+	<text transform="matrix(1 0 0 1 663.0967 48.312)" class="st10"><tspan x="0" y="0" class="st2 st11">Stage 2 </tspan><tspan x="0" y="28.8" class="st2 st11">Completed</tspan></text>
+</g>
+<g id="dialog1" class="st8">
+	<polygon class="st10" points="404.04,439.71 318.48,399.95 237.22,447.9 248.6,354.24 177.89,291.77 270.48,273.65 308.04,187.1 
+		353.89,269.55 447.81,278.53 383.56,347.61 	"/>
+</g>
+<g id="dialog2" class="st8">
+	<polygon class="st10" points="785.42,469.73 621.83,542.62 476.91,437.39 495.58,259.27 659.17,186.38 804.09,291.61 	"/>
+</g>
+</svg>
