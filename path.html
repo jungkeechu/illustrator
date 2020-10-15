@@ -11,6 +11,7 @@ $.get('path.svg', function(data) {
     $('#reset').show();
   });
   
+ 
   $('#reset').click(function() {
     $('#response1').hide();
     $('#reset').hide();
@@ -25,6 +26,12 @@ $.get('path.svg', function(data) {
       $('#click1').hide();
     }
   );
+
+  $('#clickOtherURL').click(function() {
+    window.location = "https://google.com"
+  });
+  
+
 });
 
 </script>
